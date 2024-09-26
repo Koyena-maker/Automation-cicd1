@@ -6,6 +6,7 @@
   <artifactId>mymission</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
+  
 
   <name>mymission</name>
   <url>http://maven.apache.org</url>
@@ -42,8 +43,10 @@
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>7.6.0</version>
-    <scope>test</scope>
+    <scope>compile</scope>
 </dependency>
+
+
 <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
 <dependency>
     <groupId>com.fasterxml.jackson.core</groupId>

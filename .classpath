@@ -48,17 +48,5 @@
 			<attribute name="maven.scope" value="compile"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
-	<classpathentry kind="lib" path="C:/Users/HP/.m2/repository/org/seleniumhq/selenium/selenium-support/4.18.0/selenium-support-4.18.0.jar" sourcepath="C:/Users/HP/.m2/repository/org/seleniumhq/selenium/selenium-support/4.18.0/selenium-support-4.18.0-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
-			<attribute name="maven.artifactId" value="selenium-support"/>
-			<attribute name="maven.version" value="4.18.0"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/HP/Downloads/eclipse-java-2023-12-R-win32-x86_64/eclipse/plugins/org.testng_7.10.2.r202404291553.jar" sourcepath="C:/Users/HP/Downloads/eclipse-java-2023-12-R-win32-x86_64/eclipse/plugins/org.testng.source_7.10.2.r202404291553.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

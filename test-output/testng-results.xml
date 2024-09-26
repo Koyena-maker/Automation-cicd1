@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="3" total="5" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-26T17:58:25 IST" name="Suite" finished-at="2024-09-26T17:59:32 IST" duration-ms="66394">
+  <suite started-at="2024-09-26T19:47:15 IST" name="Suite" finished-at="2024-09-26T19:48:15 IST" duration-ms="59508">
     <groups>
       <group name="Purchase,RunThis">
-        <method signature="submitOrderTest.placeOrder(java.util.HashMap)[pri:0, instance:Automation.tests.submitOrderTest@4e50c791]" name="placeOrder" class="Automation.tests.submitOrderTest"/>
+        <method signature="submitOrderTest.placeOrder(java.util.HashMap)[pri:0, instance:Automation.tests.submitOrderTest@2cd76f31]" name="placeOrder" class="Automation.tests.submitOrderTest"/>
       </group> <!-- Purchase,RunThis -->
     </groups>
-    <test started-at="2024-09-26T17:58:25 IST" name="ErrrorValidations Test" finished-at="2024-09-26T17:58:25 IST" duration-ms="43">
+    <test started-at="2024-09-26T19:47:15 IST" name="ErrrorValidations Test" finished-at="2024-09-26T19:47:15 IST" duration-ms="58">
     </test> <!-- ErrrorValidations Test -->
-    <test started-at="2024-09-26T17:58:25 IST" name="submitOrder Test" finished-at="2024-09-26T17:59:32 IST" duration-ms="66394">
+    <test started-at="2024-09-26T19:47:15 IST" name="submitOrder Test" finished-at="2024-09-26T19:48:15 IST" duration-ms="59508">
       <class name="Automation.tests.submitOrderTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Automation.tests.submitOrderTest@4e50c791]" started-at="2024-09-26T17:58:27 IST" name="launchApplication" finished-at="2024-09-26T17:58:48 IST" duration-ms="20866" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Automation.tests.submitOrderTest@2cd76f31]" started-at="2024-09-26T19:47:17 IST" name="launchApplication" finished-at="2024-09-26T19:47:28 IST" duration-ms="10899" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="placeOrder(java.util.HashMap)[pri:0, instance:Automation.tests.submitOrderTest@4e50c791]" started-at="2024-09-26T17:58:48 IST" name="placeOrder" data-provider="receiveData" finished-at="2024-09-26T17:59:05 IST" duration-ms="17089" status="PASS">
+        <test-method signature="placeOrder(java.util.HashMap)[pri:0, instance:Automation.tests.submitOrderTest@2cd76f31]" started-at="2024-09-26T19:47:28 IST" name="placeOrder" data-provider="receiveData" finished-at="2024-09-26T19:47:47 IST" duration-ms="18973" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,15 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- placeOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Automation.tests.submitOrderTest@4e50c791]" started-at="2024-09-26T17:59:05 IST" name="tearDown" finished-at="2024-09-26T17:59:07 IST" duration-ms="1849" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Automation.tests.submitOrderTest@2cd76f31]" started-at="2024-09-26T19:47:47 IST" name="tearDown" finished-at="2024-09-26T19:47:48 IST" duration-ms="1219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Automation.tests.submitOrderTest@4e50c791]" started-at="2024-09-26T17:59:07 IST" name="launchApplication" finished-at="2024-09-26T17:59:14 IST" duration-ms="7218" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Automation.tests.submitOrderTest@2cd76f31]" started-at="2024-09-26T19:47:48 IST" name="launchApplication" finished-at="2024-09-26T19:47:56 IST" duration-ms="8317" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="placeOrder(java.util.HashMap)[pri:0, instance:Automation.tests.submitOrderTest@4e50c791]" started-at="2024-09-26T17:59:14 IST" name="placeOrder" data-provider="receiveData" finished-at="2024-09-26T17:59:30 IST" duration-ms="15928" status="PASS">
+        <test-method signature="placeOrder(java.util.HashMap)[pri:0, instance:Automation.tests.submitOrderTest@2cd76f31]" started-at="2024-09-26T19:47:56 IST" name="placeOrder" data-provider="receiveData" finished-at="2024-09-26T19:48:12 IST" duration-ms="15609" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -46,7 +46,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- placeOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Automation.tests.submitOrderTest@4e50c791]" started-at="2024-09-26T17:59:30 IST" name="tearDown" finished-at="2024-09-26T17:59:32 IST" duration-ms="1677" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Automation.tests.submitOrderTest@2cd76f31]" started-at="2024-09-26T19:48:12 IST" name="tearDown" finished-at="2024-09-26T19:48:15 IST" duration-ms="3015" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
