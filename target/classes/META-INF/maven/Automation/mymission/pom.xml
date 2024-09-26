@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>Automation</groupId>
-  <artifactId>seleniumframeworkpart6</artifactId>
+  <artifactId>mymission</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>seleniumframeworkpart6</name>
+  <name>mymission</name>
   <url>http://maven.apache.org</url>
 
   <properties>
