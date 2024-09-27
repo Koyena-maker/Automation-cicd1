@@ -64,6 +64,7 @@ public class submitOrderTest extends BaseTest{
 	    finalpage fp=cop.clickOnSubMit();
 	    String message=fp.printIds();
 	    Assert.assertTrue(message.equalsIgnoreCase(thankyouMsg));
+	    System.out.println(message);
 	   }
     @Test(dependsOnMethods="placeOrder")
     public void orderHistory()
